@@ -11,6 +11,7 @@ view: median_house_prices {
     sql: ${TABLE}.business_acres_proportion ;;
   }
 
+##This is whether or not it is by the river
   dimension: charles_river {
     type: number
     sql: ${TABLE}.charles_river ;;
